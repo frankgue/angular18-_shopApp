@@ -1,0 +1,23 @@
+footer {
+  text-transform: uppercase;
+  color: white;
+  font-size: 2rem;
+}
+
+.footer-content {
+  height: calc(100vh - 70vh - 80px);
+  /* justify-content: center */
+  text-align: center;
+  align-items: center;
+  background-color: #09cb75;
+  /* flex-direction: column; */
+}
+.footer-bottom {
+  height: 70px;
+  display: flex;
+  background-color: rgb(1, 43, 1);
+  justify-content: right;
+  /* align-items: right; */
+  /* text-align: right; */
+  padding-right: 20px;
+}

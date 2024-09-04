@@ -1,0 +1,43 @@
+<div class="modal-product-view">
+  <div class="overlay"></div>
+  <div class="modal-product-view-container flex">
+    <div class="modal-product-view-image flex-1">
+      <img
+        [src]="product ? product.imageUrl[0] : ''"
+        [alt]="product?.name"
+        alt=""
+      />
+    </div>
+    <div class="modal-product-view-details flex-1 flex jcc aic column">
+      <h2>{{ product?.name }}</h2>
+      <div class="modal-product-view-details-price">
+        <h4>{{ (product?.sold_price || 0) / 100 }} $</h4>
+        <del>
+          <h4>{{ (product ? product.regular_price : 0) / 100 }} $</h4>
+        </del>
+      </div>
+      <div class="modal-product-view-details-created-at">
+        Créé le {{ product?.created_at | date : "dd/MM/yyyy" }}
+      </div>
+      <button class="btn btn-close" (click)="closeModal()">Fermer</button>
+    </div>
+  </div>
+</div>
+
+<!-- <div class="modal_container">
+  <div class="product_image">
+    <img src="../../../assets/images/products/robe_1/1.webp" alt="img" />
+  </div>
+  <div class="product_details">
+    <div class="product_name"><h2>Robe portefeuille a volants fleuri</h2></div>
+    <div class="product_price">
+      <h3>15.99 $</h3>
+      <del>
+        <h3>25.99 $</h3>
+      </del>
+    </div>
+    Créé le 
+    
+    <button>Fermer</button>
+  </div>
+</div> -->

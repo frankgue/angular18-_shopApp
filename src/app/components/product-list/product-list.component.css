@@ -1,0 +1,14 @@
+.product-list {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.product-list .bar {
+  color: black;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+}
