@@ -1,10 +1,11 @@
 import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 import { Product } from '../../models/product';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-product-item',
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './product-item.component.html',
   styleUrl: './product-item.component.css',
 })
@@ -24,6 +25,7 @@ export class ProductItemComponent implements OnInit {
   handleClickProduct(product: Product | undefined) {
     this.displayProductViewModal.emit(product);
   }
+ 
 
   // deleteProduct(product: Product | undefined) {
   //   // this.deleteProductItem.emit(product);

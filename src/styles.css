@@ -4,6 +4,10 @@ body {
   font-familly: Arial, Helvetica, sans-serif;
 }
 
+.b {
+  border: 0.1px solid black;
+}
+
 .flex {
   display: flex;
 }
@@ -24,6 +28,18 @@ body {
   justify-content: center;
 }
 
+.gap-5 {
+  gap: 5px;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
 .column {
   flex-direction: column;
 }
@@ -37,3 +53,87 @@ body {
   cursor: pointer;
   outline: none;
 }
+
+.content {
+  width: 80%;
+  margin: 0 auto;
+  min-height: 70vh;
+}
+
+@media screen and (max-width: 1200px) {
+  .content {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .content {
+    width: 95%;
+  }
+}
+
+/********************************************************************/
+/*********************** SIGNIN AND SIGNUP  *************************/
+/********************************************************************/
+
+.signup {
+  height: 70vh;
+}
+
+.form-container {
+  width: 550px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  border: 0.1px solid #ccc;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  margin-top: 25px;
+  font-size: 1.4rem;
+  height: 50px;
+  background-color: #1d1d1d;
+  border: none;
+  width: 100%;
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 7px;
+}
+
+.btn-details {
+  min-width: 120px;
+  height: 50px;
+  /* margin: 10px; */
+  padding: 10px;
+  color: #fff;
+  background-color: #1d1d1d;
+  cursor: pointer;
+  outline: none;
+  font-size: 25px;
+}
+
+form {
+  padding: 5px;
+}
+
+form .form-line {
+  min-height: 40px;
+  padding: 10px 0;
+}
+
+form .form-line input {
+  font-size: 1.1rem;
+  height: 40px;
+}
+
+@media screen and (max-width: 550px) {
+  .form-container {
+    width: 90%;
+  }
+}
+
+/********************************************************************/
+/*********************** SINGLE PRODUCT  *************************/
+/********************************************************************/

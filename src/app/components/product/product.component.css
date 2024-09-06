@@ -1,0 +1,25 @@
+.single-product {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.single-product .single-product-image {
+  justify-content: flex-end;
+}
+.single-product .single-product-image img {
+  width: 500px;
+}
+
+@media screen and (max-width: 900px) {
+  .single-product {
+    flex-direction: column-reverse;
+  }
+  .single-product .single-product-image {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .single-product .single-product-image img {
+    width: 95%;
+  }
+}

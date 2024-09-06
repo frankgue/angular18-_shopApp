@@ -1,0 +1,44 @@
+<div class="signup">
+  <div class="form-container">
+    <form action="" [formGroup]="signinForm">
+      <h2>Connexion</h2>
+      <div class="form-line flex">
+        <input
+          [formControl]="email"
+          class="flex-1"
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Your email please ..."
+        />
+      </div>
+      <div class="error" *ngIf="email.dirty && !email.valid">
+        <p *ngIf="email.hasError('required')">Email required.</p>
+        <p *ngIf="!email.hasError('required')">This email is not valid.</p>
+      </div>
+      <div class="form-line flex">
+        <input
+          class="flex-1"
+          type="password"
+          name="password"
+          id="password"
+          [formControl]="password"
+          placeholder="Your password please ..."
+        />
+      </div>
+      <div class="error" *ngIf="password.dirty && !password.valid">
+        <p *ngIf="password.hasError('minlength')">
+          This password must be at least 6 characters.
+        </p>
+        <p *ngIf="password.hasError('required')">This password is required</p>
+      </div>
+      <button
+        class="btn"
+        (click)="handleSubmit()"
+        [disabled]="!signinForm.valid"
+      >
+        Se connecter
+      </button>
+    </form>
+  </div>
+</div>

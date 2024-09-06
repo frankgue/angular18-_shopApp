@@ -6,6 +6,7 @@ export interface Product {
   category: string[];
   sold_price: number;
   regular_price: number;
+  slug?: string;
   created_at: Date;
   updated_at?: Date;
 }
