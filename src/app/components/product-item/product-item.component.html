@@ -4,6 +4,7 @@
       [src]="product ? product.imageUrl[0] : ''"
       [alt]="product?.name"
       alt=""
+      [routerLink]="['product', product?.slug]"
     />
   </div>
   <div class="product-details">
@@ -22,9 +23,6 @@
     <div class="product-action-button flex gap-10 jcc">
       <button class="btn-details" (click)="handleClickProduct(product)">
         Quick view
-      </button>
-      <button class="btn-details" [routerLink]="['product', product?.slug]">
-        All details
       </button>
     </div>
   </div>

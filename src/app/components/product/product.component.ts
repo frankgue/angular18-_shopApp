@@ -5,11 +5,18 @@ import { ActivatedRoute } from '@angular/router';
 import { ProductService } from '../../services/product.service';
 import { Subscription } from 'rxjs';
 import { LoadingComponent } from '../loading/loading.component';
+import { PaymentCardComponent } from '../payment-card/payment-card.component';
+import { ProductDetailsComponent } from '../product-details/product-details.component';
 
 @Component({
   selector: 'app-product',
   standalone: true,
-  imports: [CommonModule, LoadingComponent],
+  imports: [
+    CommonModule,
+    LoadingComponent,
+    PaymentCardComponent,
+    ProductDetailsComponent,
+  ],
   templateUrl: './product.component.html',
   styleUrl: './product.component.css',
 })
@@ -18,6 +25,7 @@ export class ProductComponent implements OnInit, OnDestroy {
   slug: string | undefined;
   productSubScriber: Subscription | undefined;
   isLoading: boolean = true;
+  currentImg: string | undefined;
 
   constructor(
     private route: ActivatedRoute,
@@ -30,6 +38,7 @@ export class ProductComponent implements OnInit, OnDestroy {
     this.productSubScriber = this.productService.getProducts().subscribe({
       next: (products: Product[]) => {
         this.product = products.filter((p) => p.slug === this.slug)[0];
+        this.currentImg = this.product?.imageUrl[0];
         this.isLoading = false;
       },
       error: (err: any) => {
@@ -50,5 +59,9 @@ export class ProductComponent implements OnInit, OnDestroy {
     //Called once, before the instance is destroyed.
     //Add 'implements OnDestroy' to the class.
     this.productSubScriber?.unsubscribe();
+  }
+
+  setCurrentImg(url: string) {
+    this.currentImg = url;
   }
 }

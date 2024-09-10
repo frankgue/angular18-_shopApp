@@ -4,11 +4,12 @@ import { Subscription } from 'rxjs';
 import { environment } from '../../../environments/environment';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterModule } from '@angular/router';
+import { AsideNavComponent } from '../aside-nav/aside-nav.component';
 
 @Component({
   selector: 'app-header',
   standalone: true,
-  imports: [CommonModule, RouterModule],
+  imports: [CommonModule, RouterModule, AsideNavComponent, AsideNavComponent],
   templateUrl: './header.component.html',
   styleUrl: './header.component.css',
 })

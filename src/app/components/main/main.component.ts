@@ -19,5 +19,7 @@ import { LoadingComponent } from '../loading/loading.component';
   styleUrl: './main.component.css',
 })
 export class MainComponent implements OnInit {
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    window.scrollTo(0, 0);
+  }
 }

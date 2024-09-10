@@ -1,14 +1,21 @@
 <header>
+  <div class="bars none">
+    <a routerLink="">
+      <img src="/assets/images/icons/bars.png" alt="" width="50" />
+    </a>
+  </div>
   <div class="logo">
-    <a href="#">{{ appName }}</a>
+    <a routerLink="">{{ appName }}</a>
     <!-- SHOP -->
   </div>
   <div class="nav-bar">
     <ul>
       <li><a routerLink="">Home</a></li>
-      <!-- <li><a href="">Product</a></li> -->
-      <li><a routerLink="signin">Sign Up</a></li>
-      <li><a routerLink="signup">Sign In</a></li>
+      <li><a routerLink="">Product</a></li>
+      <li><a routerLink="">Blog</a></li>
+      <li><a routerLink="signup" class="btn">Sign Up</a></li>
+      <li><a routerLink="signin" class="btn">Sign In</a></li>
     </ul>
   </div>
 </header>
+<app-aside-nav></app-aside-nav>

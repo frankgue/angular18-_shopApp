@@ -2,6 +2,10 @@
   <div class="form-container">
     <form action="">
       <h2>Inscription</h2>
+      <p class="tc">
+        Already have an account? If yes then click here to
+        <a routerLink="/signin">Login</a>
+      </p>
       <div class="form-line flex gap-10 wrap">
         <input
           class="flex-1"
@@ -50,63 +54,7 @@
           [(ngModel)]="user.confirmPassword"
         />
       </div>
-      <button class="btn" (click)="handleSubmit()">S'inscrire</button>
+      <button class="btn" (click)="handleSubmit()">Se</button>
     </form>
   </div>
 </div>
-
-<!-- <div class="signup signin">
-  <h1>Inscription</h1>
-
-  <div class="username gap-5">
-    <div class="form-inline firstname">
-      <input
-        type="text"
-        name="firstname"
-        id="firstname"
-        placeholder="Your lastname ..."
-        [(ngModel)]="firstname"
-      />
-    </div>
-    <div class="form-inline lastname">
-      <input
-        type="text"
-        name="lastname"
-        id="lastname"
-        placeholder="Your lastname ..."
-        [(ngModel)]="lastname"
-      />
-    </div>
-  </div>
-  <div class="form-inline email flex">
-    <input
-      type="email"
-      name="email"
-      id="email"
-      autocomplete="off"
-      placeholder="Your email please ..."
-      [(ngModel)]="email"
-    />
-  </div>
-  <div class="form-inline password flex">
-    <input
-      type="password"
-      name="password"
-      id="password"
-      placeholder="Your password please ..."
-      [(ngModel)]="password"
-    />
-  </div>
-  <div class="form-inline password flex">
-    <input
-      type="password"
-      name="confirmPassword"
-      id="confirmPassword"
-      placeholder="Confirm your password please ..."
-      [(ngModel)]="confirmPassword"
-    />
-  </div>
-
-  <button class="btn" (click)="saveUserFirstname()">S'inscrire</button>
-  {{ userData | json }}
-</div> -->

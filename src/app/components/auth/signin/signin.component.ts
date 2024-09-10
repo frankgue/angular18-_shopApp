@@ -9,11 +9,12 @@ import {
   Validators,
 } from '@angular/forms';
 import { User } from '../../../models/user';
+import { RouterModule } from '@angular/router';
 
 @Component({
   selector: 'app-signin',
   standalone: true,
-  imports: [CommonModule, FormsModule, ReactiveFormsModule],
+  imports: [CommonModule, FormsModule, ReactiveFormsModule, RouterModule],
   templateUrl: './signin.component.html',
   styleUrl: './signin.component.css',
 })
