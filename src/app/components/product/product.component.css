@@ -1,6 +1,7 @@
 .single-product {
   margin-top: 20px;
   margin-bottom: 20px;
+  height: 600px;
 }
 .single-product img {
   cursor: pointer;
@@ -38,6 +39,9 @@
 }
 .single-product-image-list img {
   width: 100px;
+}
+.single-product-image-list {
+  overflow-y: auto;
 }
 
 .mt-10 {

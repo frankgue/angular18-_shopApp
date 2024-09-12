@@ -59,6 +59,9 @@ del{color: #3f51b5}
 .gap-10 {
   gap: 10px;
 }
+.p-10 {
+  padding: 10px;
+}
 
 .wrap {
   flex-wrap: wrap;

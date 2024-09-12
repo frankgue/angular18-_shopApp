@@ -1,4 +1,4 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { ProductItemComponent } from '../product-item/product-item.component';
 import { CommonModule, JsonPipe, NgFor } from '@angular/common';
 import { Product } from '../../models/product';
@@ -23,41 +23,15 @@ import { ResultRequest } from '../../models/result-request';
   styleUrl: './product-list.component.css',
 })
 export class ProductListComponent implements OnInit, OnDestroy {
-  products: Product[] = [];
+  @Input() products: Product[] = [];
   resultData: ResultRequest<Product> | undefined;
   isDisplayModal: boolean = false;
-  isLoading: boolean = true;
+  @Input() isLoading: boolean = true;
   modalProduct: Product | undefined;
-  productSub: Subscription | undefined;
 
   constructor(private productService: ProductService) {}
 
-  ngOnInit(): void {
-    this.productService.getProducts().subscribe({
-      next: (resultData: ResultRequest<Product>) => {
-        if (resultData.isSuccess) {
-          this.products = resultData.results;
-        }
-        this.isLoading = false;
-      },
-      error: (err: any) => {
-        console.log('Error => ', err);
-        this.isLoading = true;
-      },
-      complete: () => {
-        console.log('Completed');
-      },
-    });
-
-    // this.productService
-    //   .getProducts()
-    //   .then((productList: Product[]) => {
-    //     this.products = productList;
-    //   })
-    //   .catch(() => {
-    //     this.products = [];
-    //   });
-  }
+  ngOnInit(): void {}
 
   handleDeleteProduct(product: Product) {
     console.log('handleDeleteProduct =>  ', product);
@@ -76,7 +50,5 @@ export class ProductListComponent implements OnInit, OnDestroy {
     this.modalProduct = undefined;
   }
 
-  ngOnDestroy(): void {
-    this.productSub?.unsubscribe();
-  }
+  ngOnDestroy(): void {}
 }

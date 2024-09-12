@@ -1,12 +1,15 @@
-<app-page-title title="Products"></app-page-title>
+<app-page-title [title]="'Products of category : ' + currentCategory?.name"></app-page-title>
 
-<div class="products-container content flex">
+<div class="products-container content flex p-10">
   <div class="products-category">
     <ul class="unlisted">
       <li *ngFor="let category of categories?.results">
-        <a href="#" (click)="handleClick($event, category)">{{
-          category.name
-        }}</a>
+        <a
+          href="#"
+          [ngClass]="{ active: category.slug === currentCategory?.slug }"
+          (click)="handleClick($event, category)"
+          >{{ category.name }}</a
+        >
       </li>
       <!-- <li><a href="">Category</a></li>
       <li><a href="" class="active">Category</a></li>
@@ -14,15 +17,27 @@
       <li><a href="">Category</a></li>
       <li><a href="">Category</a></li>
       <li><a href="">Category</a></li>
-      <li><a href="">Category</a></li>
+      <li><a href="">Category</a></li>  
       <li><a href="">Category</a></li>
       <li><a href="">Category</a></li> -->
     </ul>
   </div>
-  <div class="products-list flex-4 b">
-    <app-product-item
+  <div class="products-list flex-1 flex wrap gap-10 jcc p-10">
+    <app-product-list
+      [products]="products"
+      [isLoading]="isLoading"
+    ></app-product-list>
+
+    <!-- <app-product-item
       *ngFor="let product of products"
       [product]="product"
-    ></app-product-item>
+    (displayProductViewModal)="handleDisplayProductViewModal($event)"
+    ></app-product-item> -->
   </div>
+
+  <!-- <app-modal-product-view
+    *ngIf="isDisplayModal && modalProduct"
+    [product]="modalProduct"
+    (close)="handleCloseModal()"
+  ></app-modal-product-view> -->
 </div>

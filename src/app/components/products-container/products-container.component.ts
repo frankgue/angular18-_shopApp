@@ -8,19 +8,31 @@ import { ResultRequest } from '../../models/result-request';
 import { Product } from '../../models/product';
 import { ProductService } from '../../services/product.service';
 import { ProductItemComponent } from '../product-item/product-item.component';
+import { ModalProductViewComponent } from '../modal-product-view/modal-product-view.component';
+import { ProductListComponent } from '../product-list/product-list.component';
 
 @Component({
   selector: 'app-products-container',
   standalone: true,
-  imports: [PageTitleComponent, CommonModule, ProductItemComponent],
+  imports: [
+    PageTitleComponent,
+    CommonModule,
+    ProductItemComponent,
+    ModalProductViewComponent,
+    ProductListComponent,
+  ],
   templateUrl: './products-container.component.html',
   styleUrl: './products-container.component.css',
 })
 export class ProductsContainerComponent implements OnInit, OnDestroy {
   categories: ResultRequest<Category> | undefined;
+  currentCategory: Category | undefined;
   categorySubscriber: Subscription | undefined;
   productSubscriber: Subscription | undefined;
-  products: Product[] | undefined;
+  products: Product[] = [];
+  isDisplayModal: boolean = false;
+  isLoading: boolean = false;
+  modalProduct: Product | undefined;
 
   constructor(
     private categoriesService: CategoriesService,
@@ -30,7 +42,10 @@ export class ProductsContainerComponent implements OnInit, OnDestroy {
   ngOnInit(): void {
     this.categorySubscriber = this.categoriesService.getCategories().subscribe({
       next: (value: ResultRequest<Category>) => {
-        this.categories = value;
+        if (value.isSuccess) {
+          this.categories = value;
+          this.handleClick(null, this.categories.results[0]);
+        }
         // console.log(categories);
       },
       error: (error) => {
@@ -43,7 +58,12 @@ export class ProductsContainerComponent implements OnInit, OnDestroy {
   }
 
   handleClick(event: any, category: Category) {
-    event.preventDefault();
+    window.scrollTo(0, 0);
+    if (event) {
+      event.preventDefault();
+    }
+    this.currentCategory = category;
+    this.isDisplayModal = false;
     this.productSubscriber = this.productService.getProducts().subscribe({
       next: (resultData: ResultRequest<Product>) => {
         if (resultData.isSuccess) {
@@ -66,6 +86,7 @@ export class ProductsContainerComponent implements OnInit, OnDestroy {
             // return false;
           });
           // this.products = products;
+          this.isLoading = false;
         }
       },
       error: (err: any) => {
@@ -76,6 +97,18 @@ export class ProductsContainerComponent implements OnInit, OnDestroy {
       },
     });
     // console.log(category);
+  }
+
+  handleDisplayProductViewModal(product: Product) {
+    if (product) {
+      this.isDisplayModal = true;
+      this.modalProduct = product;
+    }
+  }
+
+  handleCloseModal() {
+    this.isDisplayModal = false;
+    this.modalProduct = undefined;
   }
 
   ngOnDestroy(): void {
