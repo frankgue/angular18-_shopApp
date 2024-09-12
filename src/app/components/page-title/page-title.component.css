@@ -1,0 +1,7 @@
+.page-title {
+  background-color: #ccc;
+  height: 100px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

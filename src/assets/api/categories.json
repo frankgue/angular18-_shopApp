@@ -1,0 +1,80 @@
+{
+  "isSuccess": true,
+  "statusCode": 200,
+  "length": 8,
+  "results": [
+    {
+      "_id": "248695135835652425",
+      "name": "Culottes",
+      "path": "/culottes",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "culottes",
+      "author": "Espero A"
+    },
+    {
+      "_id": "248695135435652425",
+      "name": "Jupes",
+      "path": "/jupes",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "jupes",
+      "author": "Espero A"
+    },
+    {
+      "_id": "248695125835652425",
+      "name": "Pantalons",
+      "path": "/pantalons",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "pantalons",
+      "author": "Espero A"
+    },
+    {
+      "_id": "241695135435652425",
+      "name": "Robes",
+      "path": "/robes",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robes",
+      "author": "Espero A"
+    },
+    {
+      "_id": "248675135435652425",
+      "name": "Pulls",
+      "path": "/pulls",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "pulls",
+      "author": "Espero A"
+    },
+    {
+      "_id": "2486951354356252425",
+      "name": "Shorts",
+      "path": "/shorts",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "shorts",
+      "author": "Espero A"
+    },
+    {
+      "_id": "248695135434652425",
+      "name": "T-Shirts",
+      "path": "/t-shirts",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "t-shirts",
+      "author": "Espero A"
+    },
+    {
+      "_id": "248695135665652425",
+      "name": "Femmes",
+      "path": "/femmes",
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "updated_at": "2024-09-05T23:59:55.815Z",
+      "slug": "femmes",
+      "author": "Espero A"
+    }
+  ]
+  
+}

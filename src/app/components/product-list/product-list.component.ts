@@ -7,6 +7,7 @@ import { ProductService } from '../../services/product.service';
 import { Subscription } from 'rxjs';
 import { HttpClientModule } from '@angular/common/http';
 import { LoadingComponent } from '../loading/loading.component';
+import { ResultRequest } from '../../models/result-request';
 
 @Component({
   selector: 'app-product-list',
@@ -23,6 +24,7 @@ import { LoadingComponent } from '../loading/loading.component';
 })
 export class ProductListComponent implements OnInit, OnDestroy {
   products: Product[] = [];
+  resultData: ResultRequest<Product> | undefined;
   isDisplayModal: boolean = false;
   isLoading: boolean = true;
   modalProduct: Product | undefined;
@@ -32,8 +34,10 @@ export class ProductListComponent implements OnInit, OnDestroy {
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe({
-      next: (products: Product[]) => {
-        this.products = products;
+      next: (resultData: ResultRequest<Product>) => {
+        if (resultData.isSuccess) {
+          this.products = resultData.results;
+        }
         this.isLoading = false;
       },
       error: (err: any) => {

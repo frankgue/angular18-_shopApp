@@ -4,6 +4,7 @@ import { ModalProductViewComponent } from '../modal-product-view/modal-product-v
 import { SignupComponent } from '../auth/signup/signup.component';
 import { SigninComponent } from '../auth/signin/signin.component';
 import { LoadingComponent } from '../loading/loading.component';
+import { HomeSliderComponent } from "../home-slider/home-slider.component";
 
 @Component({
   selector: 'app-main',
@@ -14,7 +15,8 @@ import { LoadingComponent } from '../loading/loading.component';
     SignupComponent,
     SigninComponent,
     LoadingComponent,
-  ],
+    HomeSliderComponent,
+],
   templateUrl: './main.component.html',
   styleUrl: './main.component.css',
 })

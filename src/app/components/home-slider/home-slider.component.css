@@ -1,0 +1,14 @@
+.slide-item {
+  height: 500px;
+  background-color: #3f51b5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+.slide-item img {
+  background-color: #1d1d1d;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+}

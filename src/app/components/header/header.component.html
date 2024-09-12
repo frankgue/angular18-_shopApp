@@ -1,8 +1,12 @@
 <header>
   <div class="bars none">
-    <a routerLink="">
-      <img src="/assets/images/icons/bars.png" alt="" width="50" />
-    </a>
+    <img
+      src="/assets/images/icons/bars.png"
+      alt=""
+      width="50"
+      (click)="handleDisplayMobileNav()"
+      (mouseenter)="handleDisplayMobileNav()"
+    />
   </div>
   <div class="logo">
     <a routerLink="">{{ appName }}</a>
@@ -10,12 +14,16 @@
   </div>
   <div class="nav-bar">
     <ul>
-      <li><a routerLink="">Home</a></li>
-      <li><a routerLink="">Product</a></li>
-      <li><a routerLink="">Blog</a></li>
-      <li><a routerLink="signup" class="btn">Sign Up</a></li>
-      <li><a routerLink="signin" class="btn">Sign In</a></li>
+      <li *ngFor="let item of nav_data">
+        <a [routerLink]="item?.path">{{ item.name }}</a>
+      </li>
+      <li *ngFor="let item of auth_data">
+        <a [routerLink]="item?.path" class="btn">{{ item.name }}</a>
+      </li>
     </ul>
   </div>
 </header>
-<app-aside-nav></app-aside-nav>
+<app-aside-nav
+  *ngIf="isDisplayMobileMenu"
+  (close)="handleCloseMobileNav()"
+></app-aside-nav>

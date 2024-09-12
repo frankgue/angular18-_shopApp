@@ -5,6 +5,8 @@ import { environment } from '../../../environments/environment';
 import { CommonModule } from '@angular/common';
 import { RouterLink, RouterModule } from '@angular/router';
 import { AsideNavComponent } from '../aside-nav/aside-nav.component';
+import { auth_items, nav_items } from '../../api/nav';
+import { Item } from '../../models/item';
 
 @Component({
   selector: 'app-header',
@@ -18,6 +20,9 @@ export class HeaderComponent implements OnInit, OnDestroy {
   second: Number | undefined;
   secondSubscriber: Subscription | undefined;
   appName: string = environment.siteName;
+  nav_data: Item[] = nav_items;
+  auth_data: Item[] = auth_items;
+  isDisplayMobileMenu: boolean = false;
 
   constructor(private productService: ProductService) {}
 
@@ -36,6 +41,13 @@ export class HeaderComponent implements OnInit, OnDestroy {
     //     console.log('Completed');
     //   },
     // });
+  }
+
+  handleDisplayMobileNav() {
+    this.isDisplayMobileMenu = !this.isDisplayMobileMenu;
+  }
+  handleCloseMobileNav() {
+    this.isDisplayMobileMenu = false;
   }
 
   ngOnDestroy(): void {

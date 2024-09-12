@@ -7,6 +7,7 @@ import { ProductDescriptionComponent } from './components/poduct-tabs/product-de
 import { ProductAdditionalInfoComponent } from './components/poduct-tabs/product-additional-info/product-additional-info.component';
 import { ProductVendorComponent } from './components/poduct-tabs/product-vendor/product-vendor.component';
 import { ProductReviewsComponent } from './components/poduct-tabs/product-reviews/product-reviews.component';
+import { ProductsContainerComponent } from './components/products-container/products-container.component';
 
 export const routes: Routes = [
   {
@@ -17,6 +18,11 @@ export const routes: Routes = [
   {
     path: 'signin',
     component: SigninComponent,
+    pathMatch: 'full',
+  },
+  {
+    path: 'products',
+    component: ProductsContainerComponent,
     pathMatch: 'full',
   },
   {

@@ -7,6 +7,7 @@ import { Subscription } from 'rxjs';
 import { LoadingComponent } from '../loading/loading.component';
 import { PaymentCardComponent } from '../payment-card/payment-card.component';
 import { ProductDetailsComponent } from '../product-details/product-details.component';
+import { ResultRequest } from '../../models/result-request';
 
 @Component({
   selector: 'app-product',
@@ -22,6 +23,7 @@ import { ProductDetailsComponent } from '../product-details/product-details.comp
 })
 export class ProductComponent implements OnInit, OnDestroy {
   @Input() product: Product | undefined;
+  resultData: ResultRequest<Product>|undefined
   slug: string | undefined;
   productSubScriber: Subscription | undefined;
   isLoading: boolean = true;
@@ -36,9 +38,12 @@ export class ProductComponent implements OnInit, OnDestroy {
     window.scrollTo(0, 0);
     this.slug = this.route.snapshot.params['slug'];
     this.productSubScriber = this.productService.getProducts().subscribe({
-      next: (products: Product[]) => {
-        this.product = products.filter((p) => p.slug === this.slug)[0];
-        this.currentImg = this.product?.imageUrl[0];
+      next: (resultData: ResultRequest<Product>) => {
+        if (resultData.isSuccess) {
+          
+          this.product = resultData.results.filter((p) => p.slug === this.slug)[0];
+          this.currentImg = this.product?.imageUrl[0];
+        }
         this.isLoading = false;
       },
       error: (err: any) => {

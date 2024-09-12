@@ -4,4 +4,14 @@
   width: 300px;
   height: 100vh;
   color: white;
+  z-index: 85;
+}
+
+.aside-nav a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 2rem;
 }

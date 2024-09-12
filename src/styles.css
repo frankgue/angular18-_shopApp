@@ -10,6 +10,12 @@ body {
   font-weight: 400;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
+del{color: #3f51b5}
+
 .b {
   border: 0.1px solid black;
 }
@@ -81,6 +87,11 @@ body {
 .unlisted {
   list-style: none;
   padding: 0;
+}
+
+.unlisted a{
+  text-decoration: none;
+  color: inherit;
 }
 
 /********************************************************************/

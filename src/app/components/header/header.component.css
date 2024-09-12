@@ -21,6 +21,12 @@ header {
 
 .bars img {
   width: 45px;
+  cursor: pointer;
+}
+.bars img:hover {
+  background-color: #ccc;
+  padding: 5px;
+  border-radius: 40px;
 }
 
 header .nav-bar ul {

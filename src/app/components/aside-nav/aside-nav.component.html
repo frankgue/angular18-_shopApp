@@ -1,3 +1,10 @@
-<div class="aside-nav mobile-nav">
-  <p>aside-nav works!</p>
+<div class="aside-nav mobile-nav" (mouseleave)="handleClose()">
+  <ul class="unlisted">
+    <li *ngFor="let item of nav_data">
+      <a [routerLink]="item?.path" (click)="handleClose()">{{ item.name }}</a>
+    </li>
+    <li *ngFor="let item of auth_data">
+      <a [routerLink]="item.path" (click)="handleClose()">{{ item.name }}</a>
+    </li>
+  </ul>
 </div>

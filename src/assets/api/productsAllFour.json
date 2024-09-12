@@ -1,0 +1,1093 @@
+{
+  "isSuccess": true,
+  "statusCode": 200,
+  "length": 12,
+  "results": [
+    {
+      "_id": "1255452",
+      "name": "Robe a imprimé floral a noeud decoupe floral a noeud decoupe ",
+      "description": "Robe Midi Fleurie Bohème Cette robe midi légère et fluide présente un imprimé floral bohème, parfait pour une tenue décontractée en été. Avec ses manches courtes et son col en V, elle se noue à la taille pour mettre en valeur la silhouette. Son tissu en coton assure un confort optimal tout au long de la journée.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_1/1.webp",
+        "/assets/images/products/robe_1/2.webp",
+        "/assets/images/products/robe_1/3.webp",
+        "/assets/images/products/robe_1/4.webp"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-1",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Cette robe est composée à 100% de coton biologique, ce qui la rend douce et respectueuse de l'environnement. Pour son entretien, il est recommandé de la laver en machine à 30°C et d’éviter l’utilisation de javel pour préserver l'éclat des couleurs. Fabriquée en Inde, elle reflète un artisanat de qualité.",
+      "vendor_info": "Proposée par Summer Vibes Shop, cette robe chemise bénéficie de la livraison gratuite sous 7 jours ouvrés. Les retours sont limités aux échanges, à effectuer sous 14 jours. Elle est actuellement en stock, prête à être expédiée.",
+      "reviews": "Le tissu satiné est juste magnifique ! La robe a une belle coupe et tombe parfaitement. Très élégante et féminine."
+    },
+    {
+      "_id": "1265452",
+      "name": "Robe portefeuille a volants fleuri",
+      "description": "Robe Moulante à Col Montant Conçue pour sublimer vos courbes, cette robe moulante à col montant est idéale pour les soirées chics. Sa coupe ajustée épouse parfaitement le corps, tandis que son col montant ajoute une touche élégante. Elle est disponible en plusieurs couleurs, notamment le noir et le rouge, pour un look raffiné.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_2/1.jpg",
+        "/assets/images/products/robe_2/2.jpg",
+        "/assets/images/products/robe_2/3.jpg",
+        "/assets/images/products/robe_2/4.jpg"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-2",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Conçue à partir de 95% de polyester et de 5% d'élasthanne, cette robe offre un tissu stretch pour un confort optimal. Elle est dotée d'une fermeture éclair invisible au dos pour un ajustement parfait. Parfaite pour les soirées, les cocktails ou les événements formels, elle se distingue par son élégance et son allure ajustée.",
+      "vendor_info": "Cette robe est disponible chez BelleFemme Paris, avec des frais de livraison de 6,50 €, gratuits pour les commandes dépassant 60 €. Les retours sont acceptés sous 30 jours, et un bon de retour est fourni pour simplifier le processus. La robe est prête à être expédiée immédiatement.",
+      "reviews": "J'adore la coupe cache-cœur, mais le tissu froisse facilement. Sinon, elle est parfaite pour une soirée."
+    },
+    {
+      "_id": "12575452",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Maxi Évasée en Mousseline Cette robe longue en mousseline est synonyme d'élégance. Avec sa coupe évasée et fluide, elle offre un mouvement gracieux à chaque pas. Son haut ajusté est souvent orné de détails délicats comme des perles ou de la dentelle, tandis que la jupe ample en mousseline donne un effet aérien.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_3/1.jpg",
+        "/assets/images/products/robe_3/2.jpg",
+        "/assets/images/products/robe_3/3.jpg",
+        "/assets/images/products/robe_3/4.jpg"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-3",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Composée de 70% de coton et de 30% de nylon, cette robe trapèze combine confort et sophistication. Les manches semi-transparentes en dentelle ajoutent une touche de délicatesse, tandis que la fermeture à boutons en nacre à l’arrière accentue le côté vintage. Parfaite pour des mariages, soirées ou cocktails.",
+      "vendor_info": "La robe dos nu en velours est vendue par Evening Elegance, avec des frais de livraison de 9,99 €. Pour les commandes supérieures à 150 €, la livraison est gratuite. Les retours sont acceptés sous 10 jours, mais uniquement pour échange. La robe est disponible en précommande, avec une expédition prévue dans 2 à 3 semaines.",
+      "reviews": "Je me suis sentie comme une star ! Les paillettes brillent sans être trop voyantes. La coupe fourreau est parfaite pour une soirée glamour."
+    },
+    {
+      "_id": "12585452",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Trapèze en Dentelle Cette robe trapèze en dentelle délicate est parfaite pour un look romantique et féminin. Son haut en dentelle doublé s’accompagne d’une jupe légèrement évasée qui tombe au-dessus du genou. Les manches longues et la fermeture à boutons au dos ajoutent une touche vintage sophistiquée.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_4/1.webp",
+        "/assets/images/products/robe_4/2.webp",
+        "/assets/images/products/robe_4/3.webp",
+        "/assets/images/products/robe_4/4.webp"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-4",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Cette robe longue dispose d’une doublure légère en polyester qui ajoute du confort sans alourdir la tenue. Avec ses bretelles ajustables et une fermeture à glissière dissimulée, elle s’adapte parfaitement à votre silhouette. Mesurant environ 140 cm, elle est idéale pour les occasions formelles ou les événements élégants.",
+      "vendor_info": "Disponible chez WildCat Apparel, cette robe est livrée pour 5,99 €, avec une livraison gratuite dès 80 € d’achat. Vous pouvez la retourner sous 21 jours, mais les frais de retour sont à votre charge. La robe est en stock et expédiée sous 1 à 2 jours ouvrés.",
+      "reviews": "Très jolie robe, mais un peu serrée. Prenez une taille au-dessus si vous ne voulez pas être trop à l'étroit."
+    },
+    {
+      "_id": "12559452",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Cache-Cœur Satinée Fabriquée en tissu satiné, cette robe cache-cœur élégante présente un décolleté en V flatteur et une ceinture à nouer à la taille. Idéale pour une occasion spéciale ou une soirée, elle offre un toucher soyeux et un aspect luxueux. La coupe fluide assure à la fois confort et élégance.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_5/1.jpg",
+        "/assets/images/products/robe_5/2.jpg",
+        "/assets/images/products/robe_5/3.jpg",
+        "/assets/images/products/robe_5/4.jpg"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-5",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Composée de 70% de coton et de 30% de nylon, cette robe trapèze combine confort et sophistication. Les manches semi-transparentes en dentelle ajoutent une touche de délicatesse, tandis que la fermeture à boutons en nacre à l’arrière accentue le côté vintage. Parfaite pour des mariages, soirées ou cocktails.",
+      "vendor_info": "Proposée par Summer Vibes Shop, cette robe chemise bénéficie de la livraison gratuite sous 7 jours ouvrés. Les retours sont limités aux échanges, à effectuer sous 14 jours. Elle est actuellement en stock, prête à être expédiée.",
+      "reviews": "Robe adorable ! Les volants sont parfaits pour un look romantique. Elle est confortable et idéale pour un mariage."
+    },
+    {
+      "_id": "12551452",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Fourreau à Paillettes Brillez lors de vos soirées avec cette robe fourreau à paillettes. Ajustée et scintillante, elle épouse les courbes et crée un look glamour. Les fines bretelles et le décolleté subtil mettent en valeur le haut du corps, tandis que la longueur au-dessus du genou assure une allure sophistiquée.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_6/1.webp",
+        "/assets/images/products/robe_6/2.webp",
+        "/assets/images/products/robe_6/3.webp",
+        "/assets/images/products/robe_6/4.webp"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-6",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Fabriquée à 100% en polyester satiné, cette robe midi (110 cm) brille subtilement sous la lumière. Elle est dotée d'une ceinture amovible pour ajuster la taille selon vos envies, ce qui lui donne une allure à la fois chic et décontractée. Le tissu satiné ajoute une touche d'élégance, idéale pour des occasions spéciales.",
+      "vendor_info": "Cette robe est disponible chez BelleFemme Paris, avec des frais de livraison de 6,50 €, gratuits pour les commandes dépassant 60 €. Les retours sont acceptés sous 30 jours, et un bon de retour est fourni pour simplifier le processus. La robe est prête à être expédiée immédiatement.",
+      "reviews": "J'aime beaucoup cette robe, mais les volants ajoutent un peu trop de volume pour ma morphologie. Sinon, elle est super."
+    },
+    {
+      "_id": "12554252",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Patineuse à Volants Cette robe patineuse joue sur le volume grâce à ses volants fluides. La coupe ajustée au niveau de la taille s’évase délicatement pour un effet virevoltant. Parfaite pour un mariage ou une occasion spéciale, elle apporte une touche romantique avec ses détails plissés et son encolure en cœur.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_7/1.jpg",
+        "/assets/images/products/robe_7/2.jpg",
+        "/assets/images/products/robe_7/3.jpg",
+        "/assets/images/products/robe_7/4.jpg"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-7",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Cette robe fourreau est entièrement doublée avec un tissu anti-statique pour un confort optimal. Sa coupe ajustée sublime la silhouette, avec des bretelles fines et une fente à l’arrière pour faciliter les mouvements. Parfaite pour briller en soirée, elle s'adapte à toutes les morphologies grâce à un guide des tailles détaillé.",
+      "vendor_info": "Vendue par GlamShine, la livraison standard est de 4,99 €, mais une option de livraison express est disponible. Vous avez 14 jours pour retourner la robe et recevoir un remboursement complet. Elle est en stock, mais en quantités limitées, donc ne tardez pas !",
+      "reviews": "Parfaite pour l'été ! Le lin est léger et respirant. La ceinture ajoute un joli détail pour structurer la silhouette."
+    },
+    {
+      "_id": "12554352",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Chemise Ceinturée en Lin Offrant à la fois confort et style, cette robe chemise en lin est un incontournable des journées chaudes. Sa coupe décontractée est agrémentée d’une ceinture pour souligner la taille, et son tissu léger est idéal pour garder une sensation de fraîcheur. Elle peut être portée avec des sandales pour un look décontracté chic.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_8/1.jpg",
+        "/assets/images/products/robe_8/2.jpg",
+        "/assets/images/products/robe_8/3.jpg",
+        "/assets/images/products/robe_8/4.jpg"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-8",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Confectionnée dans un mélange de polyester et de viscose, cette robe patineuse est décorée de volants superposés qui lui donnent du volume et du charme. Sa fermeture éclair invisible au dos permet un enfilage facile. Pour préserver sa beauté, un nettoyage à sec est recommandé.",
+      "vendor_info": "Distribuée par Luxury Style, cette robe est disponible avec une livraison gratuite pour les membres premium, ou à 6,99 € pour les autres. Vous pouvez la retourner sans frais sous 30 jours. Actuellement en stock, la livraison est prévue entre 3 et 5 jours ouvrés.",
+      "reviews": "Très belle robe, mais elle se froisse facilement, comme souvent avec le lin. Sinon, elle est très stylée."
+    },
+    {
+      "_id": "12554542",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Portefeuille à Imprimé Animal Adoptez une allure sauvage avec cette robe portefeuille à imprimé animal. Elle présente une coupe flatteuse avec un nœud sur le côté, un décolleté en V et une longueur midi. L’imprimé audacieux apporte du caractère à cette pièce, idéale pour des looks à la fois décontractés et sophistiqués.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_9/1.webp",
+        "/assets/images/products/robe_9/2.webp",
+        "/assets/images/products/robe_9/3.webp",
+        "/assets/images/products/robe_9/4.webp"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-9",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Confectionnée à 100% en lin naturel, cette robe chemise est légère et idéale pour les journées chaudes. Les détails comme les poches latérales et les boutons en nacre véritable en font une pièce unique. Pour son entretien, il est recommandé de la laver à la main ou à froid en machine et de la repasser à basse température.",
+      "vendor_info": "La boutique French Chic Design propose cette robe avec des frais de livraison de 7,99 €, bien qu’ils soient gratuits pour tout achat supérieur à 100 €. Les retours sont acceptés sous 15 jours, mais les frais de retour sont à la charge du client. Elle est momentanément en rupture de stock, avec une prochaine disponibilité annoncée dans deux semaines.",
+      "reviews": "Coup de cœur ! Le style portefeuille est très flatteur, et l'imprimé animal est tendance sans être trop tape-à-l'œil. Elle est super confortable."
+    },
+    {
+      "_id": "12554552",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Dos Nu en Velours Cette robe dos nu en velours luxueux est parfaite pour une soirée glamour. Avec son décolleté plongeant et sa coupe ajustée, elle met en valeur la silhouette de manière élégante. Le dos ouvert ajoute une touche sensuelle, tandis que le tissu en velours donne un effet riche et sophistiqué.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_10/1.jpg",
+        "/assets/images/products/robe_10/2.jpg",
+        "/assets/images/products/robe_10/3.jpg",
+        "/assets/images/products/robe_10/4.jpg"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-10",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Cette robe portefeuille est réalisée en 100% viscose, un tissu léger et agréable à porter. Elle est dotée d’une ceinture ajustable et de manches longues avec des poignets élastiques, offrant à la fois style et confort. Idéale pour des tenues décontractées ou professionnelles, elle est polyvalente et chic.",
+      "vendor_info": "Vendue par Élégance Boutique, cette robe est disponible avec une livraison offerte sous 5 à 7 jours ouvrés. Les retours sont possibles uniquement sous forme d’échanges, aucun remboursement n’est proposé. La robe est actuellement disponible en précommande.",
+      "reviews": "Belle robe, mais attention, l'imprimé est plus vif en vrai. J'ai dû m'habituer, mais je l'adore maintenant."
+    },
+    {
+      "_id": "12554562",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Dos Nu en Velours Cette robe dos nu en velours luxueux est parfaite pour une soirée glamour. Avec son décolleté plongeant et sa coupe ajustée, elle met en valeur la silhouette de manière élégante. Le dos ouvert ajoute une touche sensuelle, tandis que le tissu en velours donne un effet riche et sophistiqué.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_11/1.webp",
+        "/assets/images/products/robe_11/2.webp",
+        "/assets/images/products/robe_11/3.webp",
+        "/assets/images/products/robe_11/4.webp"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-11",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Conçue dans un mélange de 92% de polyester et 8% d'élasthanne, cette robe en velours stretch offre une coupe sensuelle avec un dos ouvert, agrémenté d’un lien à nouer. La longueur est courte, tombant au-dessus du genou, ce qui en fait une tenue parfaite pour une soirée chic et glamour.",
+      "vendor_info": "Proposée par le vendeur Glamorous Fashion, cette robe est livrée à un coût de 5,99 €, avec une livraison gratuite pour les commandes dépassant 75 €. Vous disposez de 14 jours pour effectuer un retour à condition que l'étiquette soit intacte. L’expédition est rapide, sous 24 heures.",
+      "reviews": "La robe est tout simplement incroyable. Le velours est doux et le dos nu ajoute une touche sexy sans être vulgaire. Parfaite pour une soirée élégante."
+    },
+    {
+      "_id": "12554527",
+      "name": "Robe a imprimé floral a noeud decoupe",
+      "description": "Robe Fourreau à Paillettes Brillez lors de vos soirées avec cette robe fourreau à paillettes. Ajustée et scintillante, elle épouse les courbes et crée un look glamour. Les fines bretelles et le décolleté subtil mettent en valeur le haut du corps, tandis que la longueur au-dessus du genou assure une allure sophistiquée.",
+      "categories": [
+        {
+          "_id": "248695135835652425",
+          "name": "Culottes",
+          "path": "/culottes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "culottes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135435652425",
+          "name": "Jupes",
+          "path": "/jupes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "jupes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695125835652425",
+          "name": "Pantalons",
+          "path": "/pantalons",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pantalons",
+          "author": "Espero A"
+        },
+        {
+          "_id": "241695135435652425",
+          "name": "Robes",
+          "path": "/robes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "robes",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248675135435652425",
+          "name": "Pulls",
+          "path": "/pulls",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "pulls",
+          "author": "Espero A"
+        },
+        {
+          "_id": "2486951354356252425",
+          "name": "Shorts",
+          "path": "/shorts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "shorts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135434652425",
+          "name": "T-Shirts",
+          "path": "/t-shirts",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "t-shirts",
+          "author": "Espero A"
+        },
+        {
+          "_id": "248695135665652425",
+          "name": "Femmes",
+          "path": "/femmes",
+          "created_at": "2024-09-05T23:59:55.815Z",
+          "updated_at": "2024-09-05T23:59:55.815Z",
+          "slug": "femmes",
+          "author": "Espero A"
+        }
+      ],
+      "imageUrl": [
+        "/assets/images/products/robe_12/1.webp",
+        "/assets/images/products/robe_12/2.webp",
+        "/assets/images/products/robe_12/3.webp",
+        "/assets/images/products/robe_12/4.webp"
+      ],
+      "sold_price": 1599,
+      "regular_price": 2599,
+      "created_at": "2024-09-05T23:59:55.815Z",
+      "slug": "robe-a-imprimé-floral-a-noeud-decoupe-12",
+      "stock": "54899",
+      "color": ["red", "blue", "green"],
+      "size": ["S", "L", "M", "X"],
+      "additional_info": "Conçue dans un mélange de 92% de polyester et 8% d'élasthanne, cette robe en velours stretch offre une coupe sensuelle avec un dos ouvert, agrémenté d’un lien à nouer. La longueur est courte, tombant au-dessus du genou, ce qui en fait une tenue parfaite pour une soirée chic et glamour.",
+      "vendor_info": "Cette robe est vendue par BohèmeChic et bénéficie d’une livraison gratuite pour toute commande supérieure à 50 €. Vous pouvez la retourner gratuitement sous 30 jours si elle ne vous convient pas. La robe est disponible en stock et sera expédiée sous 2 à 3 jours ouvrés.",
+      "reviews": "Jolie robe, mais un peu ajustée au niveau de la poitrine. Si vous avez une forte poitrine, prenez une taille au-dessus."
+    }
+  ]
+}
